@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Merry Christmas</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+ 
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}  
+       
+    
+</style>
+    <link rel="icon" href="favicon.png" type="image/png" >
+    
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
+    
+</head>
+    
+<body>
+<link rel="stylesheet" href="Christmas-style.css">
+<link rel="stylesheet" href="slideshow.css">
+
+
+
+    
+    <div id="wrapper"> 
+    
+<header>     
+<h1  style="text-align:center"> Merry Christmas </h1>
+    
+</header>    
+       
+        
+<nav>
+    <h4>Click on one of the following to switch to other pages</h4>
+    <br>
+    <br> 
+     <h3 style="text-align:center;"> <a  href="food.html"><img src="food.jpg" height="50" width="170" alt="food"></a> </h3>
+     <h3 style="text-align:center;"> <a  href="traditions.html"><img src="traditions.jpg" height="60" width="170" alt="traditions"></a> </h3>
+     <h3 style="text-align:center;"> <a  href="survey.html"><img src="survey.jpg" height="60" width="170" alt="survey"></a> </h3>
+     <h3 style="text-align:center;"> <a  href="feedback.html"><img src="feedback.jpg" height="60" width="170" alt="feedback"></a> </h3>
+</nav> 
+  
+  
+<div id="rightcol">    
+    
+    <h2>Follow us</h2>  
+   <h1 style="text-align: right">  
+    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+    <a href="https://www.instagram.com/accounts/login/?hl=ro&source=auth_switcher" class="fa fa-instagram"></a>
+    <a href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome" class="fa fa-snapchat-ghost"></a> 
+    </h1>
+    
+  
+<main>
+<h2>Christmas in Romania</h2>
+<p>This website will tell you more about the Christmas in Romania. It will tell you about the Romanian traditions, food, and many more things related to Romanian christmas. You will also find a shopping page where you will be able to purchase things about christmas. Hope that you will enjoy this website. Below are the two important things that we know about christmas.</p> 
+    <br>
+    <br>
+    <br>
+    
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="2018.jpg" style="width:100%" alt="2018 Banner">
+  <div class="text">2018 Christmas</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="snow.jpg" style="width:100%" alt="snow in Romania">
+  <div class="text">Snow in Bucharest</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="christmas%20in%20romania.jpg" style="width:100%" alt="Romanian traditional costums">
+  <div class="text">Christmas in Romania</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+   <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script> 
+ 
+    
+    
+    
+    
+    
+    <h2>Santa Claus</h2>
+    
+<img class="float" src="Santa%20claus.png" alt="Santa Claus" height="200" width="200">
+    
+<p>Santa Claus, also known as Saint Nicholas, Kris Kringle, Father Christmas, or simply Santa, is a legendary figure originating in Western Christian culture who is said to bring gifts to the homes of well-behaved ("good" or "nice") children on Christmas Eve (24 December) and the early morning hours of Christmas Day (25 December).[1] The modern Santa Claus grew out of traditions surrounding the historical Saint Nicholas (a fourth-century Greek bishop and gift-giver of Myra), the British figure of Father Christmas and the Dutch figure of Sinterklaas (himself also based on Saint Nicholas). Some maintain Santa Claus also absorbed elements of the Germanic god Wodan, who was associated with the pagan midwinter event of Yule and led the Wild Hunt, a ghostly procession through the sky. For more information click <a href="https://en.wikipedia.org/wiki/Santa_Claus">Here</a> </p>
+    <br>
+    <br>
+    
+<h2> Christmas Tree </h2>
+  
+    
+<img class="float2" src="christmas%20tree.png" alt="Christmas Tree" height="250" width="200">    
+    
+<p>Christmas tree in Bethlehem, behind it Church of the Nativity, 2014
+A Christmas tree is a decorated tree, usually an evergreen conifer such as spruce, pine, or fir or an artificial tree of similar appearance, associated with the celebration of Christmas. The modern Christmas tree was developed in medieval Livonia (present-day Estonia and Latvia) and early modern Germany, where Protestant Germans brought decorated trees into their homes.[1][2] It acquired popularity beyond the Lutheran areas of Germany[1][3] and the Baltic countries during the second half of the 19th century, at first among the upper classes.[4]. The tree was traditionally decorated with "roses made of colored paper, apples, wafers, tinsel, [and] sweetmeats". In the 18th century, it began to be illuminated by candles, which were ultimately replaced by Christmas lights after the advent of electrification. Today, there is a wide variety of traditional ornaments, such as garlands, baubles, tinsel, and candy canes. For more information click <a href="https://en.wikipedia.org/wiki/Christmas_tree">Here</a> </p>
+  
+    <h2>Here are two videos that I took during christmas in snow:</h2>
+     <video controls="controls" poster="pscarus%20in%20zapada.jpg" height="265" width="290">
+            <source src="pescarus.MOV" type="video/mp4">
+    </video>
+  
+         
+        <video controls="controls" poster="snow3.jpg" height="240" width="290">
+            <source src="Snow2.mp4" type="video/mp4">
+    </video>
+    <br>
+    <br>
+    
+    <div id="flip">Click here to contact us</div>
+<div id="panel">
+    
+    <fieldset>
+    
+<legend>Please input all of your information</legend>
+<form>
+First name:<br>
+<input type="text" name="firstname"><br>
+     
+Last name:<br>
+<input type="text" name="lastname">
+<br>
+ E-mail:
+<br>
+<input type="email" name="email" id="email">
+<br>
+Telephone: 
+<br>    
+<input type="tel" name="usrtel">
+<br>
+<label for="comments">comments:</label>
+<br>
+<textarea name="comments" id="" rows="4"></textarea>
+<br>
+<br>
+<input type="submit">
+<input type="reset">
+<br>
+<br>
+     
+    
+    </form>
+    </fieldset>
+    </div>   
+    
+    
+    
+    <br>
+    <br>
+    <br>
+<footer>
+    <p style="color:white;">
+  Posted by: Erwin Tudose
+    <br>
+  Date: 12/05/2018
+    <br>
+  Contact: <a href="mailto:e0t15116@marymount.edu"> Romanian Christmas</a>
+        <br>
+    Copiright &copy; Merry Christmas
+</footer>
+ 
+</main>    
+</div>
+</div>
+
+</body>
+</html>
